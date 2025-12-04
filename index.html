@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delícias da Ira - Conheça Nosso Site</title>
+    <link rel="stylesheet" href="./CSS/index.css">
+    <link rel="shortcut icon" href="./IMG/favicon.png" type="image/x-icon">
+    <!-- otimização das fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Momo+Signature&family=Momo+Trust+Sans:wght@200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- libras -->
+<div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <!-- libras -->
+    <header>
+        <nav aria-label="Menu principal">
+            <a href="#top" class="logo" aria-label="Voltar ao início">
+                <img src="./IMG/deliciasdaira.png" alt="Logo Doces" loading="lazy">
+            </a>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#conheca-nos">Conheça-nos</a></li>
+                <li><a href="#cardapio">Cardápio</a></li>
+                <li><a href="#depoimentos">Depoimentos</a></li>
+                <li><a href="/HTML/contato.html">Contato</a></li>
+            </ul>
+            <button class="btn-menu" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="container">
+            <h2 class="animate-fade fonte-candy">Doces que despertam emoções</h2>
+            <p id="hero-sub" class="typing" data-text="Experimente sabores únicos feitos com paixão."></p>
+        </div>
+    </section>
+
+    <main>
+        <div class="secao-separador"></div>
+        <div id="conheca-nos" class="blocos-container">
+
+            <section class="hidden">
+                <div class="bloco">
+                    <h2 class="fonte-candy">Feito com amor, para você saborear</h2>
+                    <p>Somos uma confeitaria e doceria dedicada a transformar momentos especiais em experiências memoráveis. Produzimos bolos, tortas, brigadeiros e diversas outras delícias feitas com ingredientes de qualidade e muito carinho. Além das opções do nosso cardápio, também criamos doces sob medida, do jeito que você quiser. Nosso maior compromisso é com a sua satisfação, queremos, acima de tudo, que cada pedido seja uma combinação perfeita de sabor, beleza e amor.</p>
+                </div>
+            </section>
+
+            <section class="hidden">
+                <div class="bloco-img">
+                    <img src="./IMG/doceria2.png" alt="Foto da Loja" loading="lazy">
+                </div>
+            </section>
+
+            <section class="hidden">
+                <div class="bloco">
+                    <h2 class="fonte-candy">Sobre Nós</h2>
+                    <p>A Delícias da Ira nasceu do desejo de espalhar amor em forma de doces. Cada receita foi criada com cuidado, carinho e dedicação, buscando transformar simples momentos em lembranças especiais. Nossa missão vai além de apenas confeitar: trata-se de estabelecer conexões, provocar sorrisos e adoçar a vida um pouco mais. Aqui, cada bolo, torta e brigadeiro é feito de forma artesanal, com cuidado nos detalhes e a dedicação de sempre oferecer o melhor.</p>
+                </div>
+            </section>
+
+            <section class="hidden">
+                <div class="bloco-img">
+                    <img src="./IMG/irene.png" alt="Foto da Dona Irene" loading="lazy">
+                </div>
+            </section>
+
+        </div>
+
+        <div class="secao-separador"></div>
+
+        <!-- cardápio -->
+        <h2 class="fonte-candy titulo-cardapio">Nosso Cardápio</h2>
+        <section id="cardapio" class="cardapio-zigzag">
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="./IMG/bolo-choco.png" alt="Bolos" loading="lazy">
+                </div>
+                <div class="item-text">
+                    <h2 class="fonte-candy">Bolos</h2>
+                    <p class="fonte-candy2">Bolos artesanais feitos com ingredientes selecionados e muito carinho.</p>
+                    <a href="./HTML/bolos.html" class="btn-cardapio">Cardápio de Bolos</a>
+                </div>
+            </div>
+
+            <div class="item reverse">
+                <div class="item-img">
+                    <img src="./IMG/torta-branca.png" alt="Tortas" loading="lazy">
+                </div>
+                <div class="item-text">
+                    <h2 class="fonte-candy">Tortas</h2>
+                    <p class="fonte-candy2">Tortas com recheios cremosos e sabores especiais para qualquer ocasião.</p>
+                    <a href="./HTML/tortas.html" class="btn-cardapio">Cardápio de Tortas</a>
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="item-img">
+                    <img src="./IMG/brigadeiro.png" alt="Brigadeiros" loading="lazy">
+                </div>
+                <div class="item-text">
+                    <h2 class="fonte-candy">Brigadeiros</h2>
+                    <p class="fonte-candy2">Brigadeiros gourmet feitos artesanalmente.</p>
+                    <a href="./HTML/brigadeiros.html" class="btn-cardapio">Cardápio de Brigadeiros</a>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="secao-separador"></div>
+
+        <!-- depoimentos -->
+        <section id="depoimentos">
+            <h2 class="fonte-candy">Veja alguns depoimentos!</h2>
+            <div class="depoimento-card">
+
+                <article class="depoimento">
+                    <figure>
+                        <img src="./IMG/semfotosimone.png" alt="Foto ilustrativa de cliente chamada Ana">
+                        <figcaption><strong>Ana</strong></figcaption>
+                        <span class="estrelas">★★★★★</span>
+                    </figure>
+                    <blockquote>
+                        <p>"O bolo de chocolate superou minhas expectativas, o sabor é incrível e a decoração é perfeita.
+                            Recomendo demais!"</p>
+                    </blockquote>
+                </article>
+
+                <article class="depoimento">
+                    <figure>
+                        <img src="./IMG/semfotosimone.png" alt="Foto ilustrativa de cliente chamada Jorge" loading="lazy">
+                        <figcaption><strong>Jorge</strong></figcaption>
+                        <span class="estrelas">★★★★★</span>
+                    </figure>
+                    <blockquote>
+                        <p>"Definitivamente são os melhores doces gourmet da região."</p>
+                    </blockquote>
+                </article>
+
+                <article class="depoimento">
+                    <figure>
+                        <img src="./IMG/semfotosimone.png" alt="Foto ilustrativa de cliente chamada Simone" loading="lazy">
+                        <figcaption><strong>Simone</strong></figcaption>
+                        <span class="estrelas">★★★★★</span>
+                    </figure>
+                    <blockquote>
+                        <p>"As tortas são simplesmente sensacionais. Voltarei a comprar com certeza."</p>
+                    </blockquote>
+                </article>
+
+                <article class="depoimento">
+                    <figure>
+                        <img src="./IMG/semfotosimone.png" alt="Foto ilustrativa de cliente chamada Deise" loading="lazy">
+                        <figcaption><strong>Deise</strong></figcaption>
+                        <span class="estrelas">★★★★☆</span>
+                    </figure>
+                    <blockquote>
+                        <p>"Os doces são deliciosos e muito bem feitos!"</p>
+                    </blockquote>
+                </article>
+
+                <article class="depoimento">
+                    <figure>
+                        <img src="./IMG/semfotosimone.png" alt="Foto ilustrativa de cliente chamada Carlos" loading="lazy">
+                        <figcaption><strong>Carlos</strong></figcaption>
+                        <span class="estrelas">★★★★★</span>
+                    </figure>
+                    <blockquote>
+                        <p>"Posso afirmar com toda a certeza que são os melhores bolos do Brasil!"</p>
+                    </blockquote>
+                </article>
+
+                <article class="depoimento">
+                    <figure>
+                        <img src="./IMG/semfotosimone.png" alt="Foto ilustrativa de cliente chamada Rafaela" loading="lazy">
+                        <figcaption><strong>Rafaela</strong></figcaption>
+                        <span class="estrelas">★★★★☆</span>
+                    </figure>
+                    <blockquote>
+                        <p>"Sabor caseiro e carinho no preparo. Comprarei novamente."</p>
+                    </blockquote>
+                </article>
+
+            </div>
+        </section>
+
+        <div class="secao-separador"></div>
+
+    </main>
+
+    <!-- WhatsApp -->
+    <div>
+        <a href="https://wa.me/5196090068?text=Ol%C3%A1%2C%20gostaria%20de%20algumas%20informa%C3%A7%C3%B5es."
+            target="_blank" rel="noopener noreferrer">
+            <img src="../IMG/whatsapplogo.png" class="whatsapp-icon" alt="Ícone do WhatsApp" loading="lazy">
+        </a>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-container">
+
+            <div class="footer-sobre">
+                <h3 class="fonte-candy">Delícias da Ira</h3>
+                <p>Espalhando amor em forma de doces há mais de 20 anos.</p>
+                <p>Doces que tornam seus momentos especiais.</p>
+            </div>
+
+            <div class="footer-entregas">
+                <h3 class="fonte-candy">Por Onde Entregamos?</h3>
+                <p>Realizamos entregas em Porto Alegre e em toda a Região Metropolitana.</p>
+            </div>
+
+            <div class="footer-redes">
+                <h3 class="fonte-candy">Redes Sociais</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.instagram.com/deliciasira?igsh=MTdseXVjc2FsZHBpcg==" target="_blank"
+                            rel="noopener noreferrer">
+                            <img src="./IMG/simboloinsta.svg" alt="Instagram" class="social-icon" loading="lazy">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/share/1GTE34DVQ6/" target="_blank" rel="noopener noreferrer">
+                            <img src="./IMG/faceicon.svg" alt="Facebook" class="social-icon" loading="lazy">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; Delícias da Ira, 2025 - Todos os direitos reservados. - Desenvolvido por
+                <a target="_blank" href="https://www.instagram.com/aurorusoficial_?igsh=YTJhaDUzeXUzNmFq">Aurorus</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="./JS/main.js"></script>
+
+</body>
+
+</html>
